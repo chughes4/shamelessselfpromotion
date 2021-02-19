@@ -28,6 +28,7 @@ function App() {
             .replace(regex, "Carlos Hughes")
             .replace(/&quot;/g, '"')
             .replace(/ChuckNorrisException/g, "CHughesExeption")
+            .replace(/Norris/g)
         ); //.replace(/&quot;/g,'"')
       }
     };
@@ -44,8 +45,15 @@ function App() {
           Click to find out
         </button>
         <p>{joke}</p>
-        <img className="image" src="https://phtbucket321.s3.amazonaws.com/81296033_10162863759680381_780491077755863040_n+(1).jpg" />
+        <img
+          className="image"
+          src="https://phtbucket321.s3.amazonaws.com/81296033_10162863759680381_780491077755863040_n+(1).jpg"
+        />
       </header>
+      <span>
+        <h3>link1</h3>
+        <h3>link2</h3>
+      </span>
     </div>
   );
 }
